@@ -74,6 +74,7 @@
 \def \printname {
   \begingroup
     \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
+    % \MakeUppercase{\namesize\bf \@name}\hfil
     \nameskip\break
   \endgroup
 }
